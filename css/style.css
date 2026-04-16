@@ -6,62 +6,92 @@
 }
 
 header img {
+    padding: 10px;
     margin-left: 545px;
+    width: 170px;
 }
 
-.login {
+section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 1px solid #d7d7d7;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 7px;
+    margin-bottom: 45px;
 }
 
-h1 {
-    margin-right: 100px;
+.crie {
     font-size: 20px;
+    margin-bottom: 15px;
+    margin-right: 45px;
+    margin-top: 30px;
 }
 
-.seta {
-    width: 15px;
-}
-
-.conta {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 175px;
+h3 {
+    font-size: 15px;
+    margin-left: 16px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    width: 300px;
 }
 
 input {
     width: 300px;
     margin-bottom: 10px;
-    height: 30px;
-    border-radius: 7px;
+    height: 35px;
+    border-radius: 5px;
     border: none;
     border: 1px solid;
 }
 
 .continuar {
     width: 300px;
-    height: 30px;
+    height: 33px;
     border-radius: 20px;
     border: none;
-    background-color: yellow;
+    background-color: rgb(243, 223, 7);
     color: #000;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.termos {
-    margin-left: 460px;
-    display: flex;
-    gap: 30px;
-
+.condicoes {
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 40px;
 }
 
-footer div {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 12px;
+.ajuda {
+    font-size: 14px;
+    margin-right: 185px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 hr {
     margin-bottom: 40px;
 }
+
+.termos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    color: rgb(117, 117, 255);
+}
+
+footer div {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
